@@ -1,3 +1,4 @@
+# ¡ATENCIÓN! "README.md" REALIZADO CON INTELIGENCIA ARTIFICAL PARA MEJOR ESTILO
 # Integración SOLID: Sistema A → Sistema B
 
 Servicio en PHP que recibe una **venta** del Sistema A (cajas) por POST en formato JSON, la transforma en un **movimiento de stock** (`SALIDA`) y la envía al Sistema B (inventario). El conector hacia el Sistema B es intercambiable: `ClienteStockHttp` envía por HTTP y `ClienteFalso` guarda el resultado en `datos/ultimo_movimiento.json` para probar sin el Sistema B.
